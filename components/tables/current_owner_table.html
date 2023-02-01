@@ -1,0 +1,44 @@
+<container class="flex h-screen items-center justify-center bg-red-500 sm:py-12">
+    <div class="m-10 rounded bg-white px-6 pt-10 pb-8 font-poppins sm:mx-auto sm:rounded-lg">
+      <div class="">
+        <p class="mb-2 text-xl font-semibold text-rose-600">Current Owners</p>
+        <p class="text-sm text-gray-500">Current property owners</p>
+      </div>
+      <table class="table-auto border-separate border-spacing-x-14 border-spacing-y-7 font-poppins text-xs">
+        <!--Table Header-->
+        <thead class="text-left text-xs text-gray-400">
+          <tr>
+            <th><!--profilepic--></th>
+            <th>Current property owners<!--full name--></th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>Ownership Period</th>
+            <th>User ID</th>
+            <th><!--ICON--></th>
+          </tr>
+        </thead>
+  
+        <!--table data-->
+        <tbody>
+          <tr>
+            <td>{image}</td>
+            <td class="text-xl font-semibold text-gray-700">Jack Jones</td>
+            <td>{number}</td>
+            <td>{John Smith@email.com}</td>
+            <td>January 20, 2020 - January 22, 2022</td>
+            
+            <td>{ID:387432}</td>
+            <td>{icon}</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr class="border-gray-400" />
+  
+      <div class="flex flex-col items-center">
+        <p class="mb-1 mt-4 text-xl font-semibold">Invitations</p>
+        <p class="mb-3 text-sm text-gray-500">You have no pending invites</p>
+        <button class="font-medium text-rose-600">+ Add owner</button>
+      </div>
+    </div>
+  </container>
+  
