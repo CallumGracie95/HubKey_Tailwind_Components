@@ -4,16 +4,17 @@
         <p class="mb-2 text-xl font-semibold">Current Tenants</p>
         <p class="text-sm text-gray-500">Current property tenants</p>
       </div>
-      <table class="table-auto border-separate border-spacing-x-14 border-spacing-y-7 font-poppins">
+      <table class="table-auto border-separate border-spacing-x-14 border-spacing-y-7 font-poppins text-xs">
         <!--Table Header-->
-        <thead class="text-left text-gray-700">
+        <thead class="text-left text-xs text-gray-400">
           <tr>
             <th><!--profilepic--></th>
-            <th><!--full name--></th>
-            <th><!--number--></th>
-            <th><!--email--></th>
-            <th><!--indicator column--></th>
-            <th><!--id--></th>
+            <th>Current property tenants<!--full name--></th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>Lease Period</th>
+            <th>Entry & Exit Report</th>
+            <th>User ID</th>
             <th><!--ICON--></th>
           </tr>
         </thead>
@@ -25,7 +26,8 @@
             <td class="text-xl font-semibold text-gray-700">Jack Jones</td>
             <td>{number}</td>
             <td>{John Smith@email.com}</td>
-            <td><indicator-centre class="ml- ml-14 rounded-lg bg-green-600 px-3 py-2 text-white">e-Report</indicator-centre></td>
+            <td>January 20, 2020 - January 22, 2022</td>
+            <td class="flex"><indicator-centre class="ml- ml-14 rounded-lg bg-green-600 px-3 py-2 text-white">e-Report</indicator-centre></td>
             <td>{ID:387432}</td>
             <td>{icon}</td>
           </tr>
@@ -36,7 +38,7 @@
       <div class="flex flex-col items-center">
         <p class="mb-1 mt-4 text-xl font-semibold">Invitations</p>
         <p class="mb-3 text-sm text-gray-500">You have no pending invites</p>
-        <button class="font-medium text-rose-600">+ Add tenant</button>
+        <button class="font-medium text-rose-600">+ Add past tenant</button>
       </div>
     </div>
   </container>
