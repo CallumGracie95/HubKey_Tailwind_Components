@@ -1,0 +1,43 @@
+<container class="flex h-screen items-center justify-center bg-red-500 sm:py-12">
+    <div class="m-10 rounded bg-white px-6 pt-10 pb-8 font-poppins sm:mx-auto sm:rounded-lg">
+      <div class="">
+        <p class="mb-2 text-xl font-semibold">Current Tenants</p>
+        <p class="text-sm text-gray-500">Current property tenants</p>
+      </div>
+      <table class="table-auto border-separate border-spacing-x-14 border-spacing-y-7 font-poppins">
+        <!--Table Header-->
+        <thead class="text-left text-gray-700">
+          <tr>
+            <th><!--profilepic--></th>
+            <th><!--full name--></th>
+            <th><!--number--></th>
+            <th><!--email--></th>
+            <th><!--indicator column--></th>
+            <th><!--id--></th>
+            <th><!--ICON--></th>
+          </tr>
+        </thead>
+  
+        <!--table data-->
+        <tbody>
+          <tr>
+            <td>{image}</td>
+            <td class="text-xl font-semibold text-gray-700">Jack Jones</td>
+            <td>{number}</td>
+            <td>{John Smith, Jane Smith}</td>
+            <td><indicator-centre class="ml- ml-14 rounded-lg bg-green-600 px-3 py-2 text-white">e-Report</indicator-centre></td>
+            <td>{ID:387432}</td>
+            <td>{icon}</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr class="border-gray-400" />
+  
+      <div class="flex flex-col items-center">
+        <p class="mb-1 mt-4 text-xl font-semibold">Invitations</p>
+        <p class="mb-3 text-sm text-gray-500">You have no pending invites</p>
+        <button class="font-medium text-rose-600">+ Add tenant</button>
+      </div>
+    </div>
+  </container>
+  
